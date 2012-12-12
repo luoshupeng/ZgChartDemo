@@ -1,0 +1,8 @@
+*.sdf
+*.pdb
+*.obj
+*.log
+*.manifest
+
+Debug/
+Release/

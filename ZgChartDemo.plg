@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ZgChartDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ZgChartDemo.res" /d "_DEBUG" /d "_AFXDLL" "F:\Pro\Src\ZgChartDemo.rc"" 
+Creating temporary file "C:\Users\LUOSHU~1\AppData\Local\Temp\RSP33D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "ZgChartLib" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ZgChartDemo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Pro\Src\MainFrm.cpp"
+"F:\Pro\Src\ZgChartDemo.cpp"
+]
+Creating command line "cl.exe @C:\Users\LUOSHU~1\AppData\Local\Temp\RSP33D.tmp" 
+Creating temporary file "C:\Users\LUOSHU~1\AppData\Local\Temp\RSP33E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "ZgChartLib" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ZgChartDemo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Pro\Src\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\LUOSHU~1\AppData\Local\Temp\RSP33E.tmp" 
+Creating temporary file "C:\Users\LUOSHU~1\AppData\Local\Temp\RSP33F.tmp" with contents
+[
+ZgChartLib.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ZgChartDemo.pdb" /debug /machine:I386 /out:"Debug/ZgChartDemo.exe" /pdbtype:sept /libpath:"ZgChartLib" 
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\ZgChartDemo.obj
+.\Debug\ZgChartDemo.res
+]
+Creating command line "link.exe @C:\Users\LUOSHU~1\AppData\Local\Temp\RSP33F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+ZgChartDemo.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ZgChartDemo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
